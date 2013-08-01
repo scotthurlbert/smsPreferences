@@ -1,0 +1,29 @@
+﻿<!-- ReSharper disable Html.TagNotResolved -->
+<!DOCTYPE html>
+<html data-ng-app="smsPreferencesApp">
+    <head>
+        <script src="http://code.angularjs.org/1.1.5/angular.min.js"></script>
+        <script src="http://documentcloud.github.com/underscore/underscore-min.js"></script>
+        <script type="text/javascript" src="js/controllers.js"></script>
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/sms-preferences.css" rel="stylesheet" />
+        <title>App Title</title>
+    </head>
+    <body>
+
+        <phone-number></phone-number><send-sms-confirmation></send-sms-confirmation>
+        <confirmation-code-entry></confirmation-code-entry>
+        <box>
+            <checkbox></checkbox>
+        </box>
+        <days-of-week-checkboxes></days-of-week-checkboxes>
+        <times-of-day-checkboxes></times-of-day-checkboxes>
+        <save-cancel-buttons></save-cancel-buttons>
+
+        <script type="text/javascript">
+            var smsPreferencesApp = angular.module( 'smsPreferencesApp', [] );
+        </script>
+        <script type="text/javascript" src="js/directives.js"></script>
+    </body>
+</html>
+<!-- ReSharper restore Html.TagNotResolved -->
