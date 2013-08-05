@@ -40,11 +40,11 @@ smsPreferencesApp.directive( 'checkbox', function ()
     };
 } );
 
-smsPreferencesApp.directive( 'timesOfDayCheckboxes', function ()
+smsPreferencesApp.directive( 'timesOfDayInput', function ()
 {
     return {
         restrict: 'E',
-        templateUrl: 'partials/times-of-day-checkboxes.html'
+        templateUrl: 'partials/times-of-day-input.html'
     };
 } );
 smsPreferencesApp.directive( 'timesOfDayCheckboxes', function ()
