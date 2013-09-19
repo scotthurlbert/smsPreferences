@@ -5,3 +5,12 @@
 #phoneNumber {
     display: inline;
 }
+
+.label-right {
+    display: inline-block;
+    margin: 5px;
+}
+
+.checkbox-one-per-line {
+    display: block;
+}

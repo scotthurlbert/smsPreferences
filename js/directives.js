@@ -28,6 +28,7 @@ smsPreferencesApp.directive( 'box', function ()
 {
     return {
         restrict: 'E',
+        transclude: true,
         templateUrl: 'partials/box.html'
     };
 } );
@@ -36,6 +37,10 @@ smsPreferencesApp.directive( 'checkbox', function ()
 {
     return {
         restrict: 'E',
+        transclude: true,
+        scope: {
+            title: '@'
+        },
         templateUrl: 'partials/checkbox.html'
     };
 } );
